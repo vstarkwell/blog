@@ -1,6 +1,7 @@
 ---
+layout: post
 title: 'Home'
-description: 'I’m a web developer based in the UK, currently contracting for a finance company. I think of ideas and execute them. I continually look to learn and I try not to impose limits on myself.'
+description: 'μικρά κείμενα κυρίως από το facebook και λίγα από το παλιό μου blog - το «μικρά» αφορά τόσο το μέγεθος όσο και τη ποιότητα - δεν διεκδικούν δάφνες - λειτουργούν όπως τα χαρτομάντηλα - διαβάζεις ένα και το πετάς, πας στο επόμενο - κείμενα μιας χρήσης - για μοντέρνα κατανάλωση.'
 layout: default
 ---
 
@@ -11,7 +12,7 @@ layout: default
         <p class="comments-link love" aria-hidden="true">Popular</p>
 
         <h2 class="post-title" style="margin-top:0;">
-            <a href="{{ page.url }}">
+            <a href="{{ site.baseurl }}{{ page.url }}">
                 {{ page.title }}
             </a>
         </h2>
@@ -25,7 +26,7 @@ layout: default
     {% for page in site.posts limit:5  %}
         {% unless page.is_popular %}
         <h2 class="post-title">
-            <a href="{{ page.url }}">
+            <a href="{{ site.baseurl }}{{ page.url }}">
                 {{ page.title }}
             </a>
         </h2>
@@ -37,5 +38,5 @@ layout: default
     {% endfor %}
 
     <p class="rss-subscribe">
-        <a href="/archive">View more</a><br/>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+        <a href="{{ site.baseurl }}/archive">View more</a><br/>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
     </div>

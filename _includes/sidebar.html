@@ -3,13 +3,9 @@
     <ul>
 		{% for p in site.pages_list %}
     	    <li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
-    	        <a href="{{ p[1] }}">{{ p[0] }}</a>
+    	        <a href="{{ site.baseurl }}{{ p[1] }}">{{ p[0] }}</a>
     	    </li>
 		{% endfor %}
-
-		<li class="page_item {% if page.url != '/about/' and page.url !='/archive/' %}current_page_item{% endif %}">
-	        <a href="/">Blog</a>
-	    </li>
     </ul>
 
 </div>

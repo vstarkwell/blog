@@ -10,5 +10,5 @@ permalink: archive/
 ### {{ currentyear }}
     {% capture year %}{{currentyear}}{% endcapture %}
   {% endif %}
-  * [{{ post.title }}]({{ post.url}})
+  * [{{ post.title }}]({{ site.baseurl }}{{ post.url}})
 {% endfor %}
