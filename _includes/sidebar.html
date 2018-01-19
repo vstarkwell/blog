@@ -1,15 +1,15 @@
 <div id="sidebar">
 
-		<li class="page_item {% if page.url != '/about/' and page.url !='/archive/' %}current_page_item{% endif %}">
+    <ul>
+    	<li class="page_item {% if page.url != '/about/' and page.url !='/archive/' %}current_page_item{% endif %}">
 	        <a href="{{ site.baseurl }}/">Home</a>
 	    </li>
-    </ul>
-
-    <ul>
 		{% for p in site.pages_list %}
-    	    <li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
+    	<li class="page_item {% if page.title == p[0] %}current_page_item{% endif %}">
     	        <a href="{{ site.baseurl }}{{ p[1] }}">{{ p[0] }}</a>
-    	    </li>
+    	</li>
 		{% endfor %}
+
+		</ul>
 
 </div>
