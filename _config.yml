@@ -21,6 +21,7 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - _posts/YYYY-MM-DD-title.md
 
 # Custom header pages
 pages_list:
