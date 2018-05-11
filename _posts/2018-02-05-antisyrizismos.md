@@ -22,7 +22,7 @@ tags:
 
 Και τελικά που είχε άδικο ο Θεοδωράκης; Τι πάει να πει δεν υπάρχουν αριστεροί φασίστες; Κάποιος που, ενώ αυτοπροσδιορίζεται ως αριστερός, με το που γυρνάει στο σπίτι πλακώνει στο ξύλο τη γυναίκα και τα παιδιά του δεν είναι φασίστας; Ο Κιμ Γιονγκ Ουν επειδή δηλώνει κομμουνιστής δεν είναι φασίστας; Και τελικά κάποιος από όλους αυτούς που διαθέτουν αριστερόμετρο μπορεί να μας πει αν ο Τσίπρας είναι αριστερός;
 
-<div class="yt-video" style="position:relative;height:0;padding-bottom:56.25%"><iframe width="560" height="315" src="https://www.youtube.com/embed/2skR-SqNXjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+<div class="yt-video" style="position:relative;height:0;padding-bottom:56.25%"><iframe width="560" height="315" src="https://www.youtube.com/embed/2skR-SqNXjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="position:absolute;width:100%;height:100%;left:0"></iframe></div>
 
 
 
